@@ -1,0 +1,26 @@
+body {
+  font-family: verdana;
+}
+
+form {
+  border: solid 1px dodgerBlue;
+  display: flex;
+  flex-direction: column;
+}
+
+form > * {
+  margin: 0.5rem;
+}
+
+select,button,input {
+  height: 2rem;
+}
+
+main {
+  display: flex;
+}
+
+main > * {
+  flex: 1;
+}
+
